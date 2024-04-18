@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bryan_chanona.instituto_descartes.controllers.RegistroController">
+   <children>
+      <Button layoutX="270.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#onMouseClickAgregarEstudianteButton" text="Agregar" />
+      <TextField fx:id="nombreEstudiante" layoutX="183.0" layoutY="28.0" />
+      <TextField fx:id="edadEstudiante" layoutX="183.0" layoutY="86.0" />
+      <TextField fx:id="matriculaEstudiante" layoutX="183.0" layoutY="150.0" />
+      <Text layoutX="27.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad del alumno:" />
+      <Text layoutX="33.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matricula del alumno:" />
+      <Text layoutX="17.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del alumno:" />
+   </children>
+</AnchorPane>
